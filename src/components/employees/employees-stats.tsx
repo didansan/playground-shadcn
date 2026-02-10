@@ -41,7 +41,7 @@ export default function EmployeesStats() {
               <span className="text-4xl font-bold">{totalEmployees}</span>
             </div>
             <div>
-              <Button size="xs" asChild><Link href="/dashboard/employees">View All</Link></Button>
+              <Button size="xs" asChild><Link href="/employees">View All</Link></Button>
             </div>
           </CardContent>
         </Card>
